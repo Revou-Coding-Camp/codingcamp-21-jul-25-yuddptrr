@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>To-Do List App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do List App</h1>
+        <form class="todo-form">
+            <input type="text" id="todo-input" placeholder="Add a new task..." required>
+            <input type="date" id="due-date" placeholder="Due date (optional)">
+            <button class="add-todo" type="submit" id="add-todo">+</button>
+        </form>
+        <div class="actions">
+            <div class="filter-dropdown">
+                <button class="filter-button" id="filter-toggle">Filter ⏷</button>
+                <div class="filter-menu" id="filter-menu">
+                <div class="filter-option" data-filter="all">All</div>
+                <div class="filter-option" data-filter="completed">Completed</div>
+                <div class="filter-option" data-filter="incomplete">Incomplete</div>
+                </div>
+            </div>
+            <button class="delete-all" id="delete-all">Delete All</button>
+        </div>
+        <div class="todo-list" id="todo-list">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Task</th>
+                        <th>Due Date</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody class ="todo-items" id="todo-items">
+                    <!-- Todo items will be dynamically added here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+    
+</body>
+</html>

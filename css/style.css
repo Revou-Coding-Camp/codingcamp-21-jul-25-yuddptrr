@@ -1,0 +1,166 @@
+
+body {
+    background-color: rgb(236, 230, 201);
+    color: #ECF0F1;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #329999;
+    border-radius: 8px;
+    border-color: aliceblue;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    flex-direction: column;
+    width: 600px;
+
+}
+
+h1 {
+    text-align: center;
+    color: #cce5e5;
+    text-shadow: #005959 1px 1px 2px;
+    font-family: 'nunito';
+    font-weight: bold ;
+
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #4779c4;
+    border-radius: 8px;
+    margin-right: 10px;
+    flex: 1;
+    font-size: 16px;
+    background-color: #99cccc;
+}
+
+
+.add-todo {
+    width: 50px;
+    height: 50px;
+    background-color: #005959;
+    color: #fff;
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: x-large;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.filter-button {
+    flex : 1;
+    padding: 10px;
+    background-color: #006666;
+    color: #fff;
+    border: none;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: medium;
+}
+
+.delete-all {
+    width: 100px;
+    height: 40px;
+    background-color: #005959;
+    color: #fff;
+    border: none;
+    margin-left: auto ;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: medium;
+}
+
+.filter-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.filter-menu {
+  display: none;
+  position: absolute;
+  background-color: #c1e7e7;
+  min-width: 120px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  overflow: hidden;
+  z-index: 1000;
+  top: 100%;
+  left: 0;
+}
+
+.filter-option {
+  padding: 10px;
+  cursor: pointer;
+  color: #333;
+}
+
+.filter-option:hover {
+  background-color: #66b2b2;
+}
+
+.filter-menu.show {
+  display: block;
+}
+
+.todo-list {
+    margin: 0 ;
+    padding: 20px;
+    background-color: #99cccc;
+    border-radius: 8px;
+    border-color: aliceblue;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    flex-direction: column;
+    width: flex;
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  font : nunitos;
+}
+
+th {
+  padding: px 20px; 
+  text-align: center; 
+  color: #005959;
+  font-weight: bold;
+}
+
+tbody {
+  background-color: #c1e7e7;
+  color :#005959;
+  text-align: center;
+  border-collapse: separate;
+  border-spacing: 0 2000px;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
