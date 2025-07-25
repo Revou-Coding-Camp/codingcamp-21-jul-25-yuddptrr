@@ -164,3 +164,33 @@ td {
   border-bottom: 1px solid #ddd;
 }
 
+.footer {
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+}
+
+.github-button {
+    background-color: #24292e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Nunito', sans-serif;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.github-button i {
+    font-size: 1.2rem;
+}
+
+.github-button:hover {
+    background-color: #444c56;
+}
+
+
